@@ -6,6 +6,7 @@ def reformat_languages(languages)
       v.merge({:style => key.to_s})
     end 
   end 
+  puts
 end
 
 # {:oo=>
