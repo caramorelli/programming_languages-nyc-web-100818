@@ -1,4 +1,5 @@
 def reformat_languages(languages)
+  lang_obj = {
   languages.each do |key, val|
     val.each do |k, v|
       puts k
