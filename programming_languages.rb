@@ -3,7 +3,7 @@ def reformat_languages(languages)
   languages.each do |key, val|
     val.each do |k, v|
       if lang_obj.has_key?(k)
-        lang_obj[k] << key
+        puts 'hi'
       else 
         lang_obj[k] = v.merge({:style => [key]})
       end
