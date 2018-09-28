@@ -5,7 +5,7 @@ def reformat_languages(languages)
       lang_obj[k] = v.merge({:style => key.to_s})
     end 
   end 
-  puts lang_obj
+  lang_obj
 end
 
 # {:oo=>
