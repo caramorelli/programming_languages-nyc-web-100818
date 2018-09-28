@@ -3,7 +3,7 @@ def reformat_languages(languages)
   languages.each do |key, val|
     val.each do |k, v|
       lang_obj[k] = v 
-      v.merge({:style => key})
+      v.merge({:style => key.to_s})
     end 
   end 
 end
