@@ -1,6 +1,6 @@
 def reformat_languages(languages)
   languages.each do |key, val|
-    puts val
+    puts val.each do |k, v|
   end 
 end
 
