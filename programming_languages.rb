@@ -1,5 +1,6 @@
 def reformat_languages(languages)
   languages.each do |key, val|
+    puts val
 end
 
 # {:oo=>
